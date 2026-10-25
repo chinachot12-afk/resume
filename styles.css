@@ -271,6 +271,8 @@ h1, h2, .content-card h2, .profile-info h2, .contact-card h2 {
 
 footer { padding: 24px 20px 30px; color: #9d8b9d; text-align: center; font-size: .82rem; }
 footer p { margin: 0; }
+.footer-link { color: #b85c8d; text-decoration: none; font-weight: 600; transition: color .2s ease; }
+.footer-link:hover { color: #6eabc9; text-decoration: underline; text-underline-offset: 3px; }
 
 ::selection { color: #743c5d; background: #f9d2e4; }
 :focus-visible { outline: 3px solid rgba(110,171,201,.7); outline-offset: 3px; }
